@@ -1,11 +1,11 @@
-
+import CardFeaturesSection from './components/CardFeaturesSection';
 
 function App() {
   return (
-    <>
-      <div>Hello!</div>
-    </>
-  )
+		<>
+			<CardFeaturesSection />
+		</>
+  );
 }
 
 export default App

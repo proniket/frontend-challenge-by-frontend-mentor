@@ -19,8 +19,8 @@ const CardFeaturesSection = () => {
 				</p>
 			</div>
 
-			<div className='w-full max-w-[80rem] flex flex-col md:flex-row items-center  gap-8 md:gap-0 '>
-				<div className='flex justify-center basis-2/6'>
+			<div className='w-full max-w-[70rem] grid md:grid-cols-3  place-items-center gap-4 md:gap-0'>
+				<div className='flex justify-center md:justify-end'>
 					<CardFeature
 						title='Supervisor'
 						desc='Monitors activity to identify project roadblocks'
@@ -30,7 +30,7 @@ const CardFeaturesSection = () => {
 					/>
 				</div>
 
-				<div className='flex flex-col items-center basis-2/6'>
+				<div className='grid gap-4 place-items-center'>
 					<CardFeature
 						title='Team Builder'
 						desc='Scans our talent network to create the optimal team for your project'
@@ -46,7 +46,7 @@ const CardFeaturesSection = () => {
 						alt='karma icon'
 					/>
 				</div>
-				<div className='flex justify-center basis-2/6'>
+				<div className='flex justify-center md:justify-start'>
 					<CardFeature
 						title='Calculator'
 						desc='Uses data from past projects to provide better delivery estimates'

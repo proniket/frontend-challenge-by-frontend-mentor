@@ -1,9 +1,9 @@
-import QrCode from './components/QrCode';
+import HuddlePage from './components/HuddlePage';
 
 function App() {
 	return (
 		<>
-			<QrCode />
+			<HuddlePage />
 		</>
 	);
 }

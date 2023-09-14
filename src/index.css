@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-    html {
-        font-family: 'Outfit', sans-serif;
-    }
+	html {
+		font-family: 'Poppins', sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		color: white;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Poppins', sans-serif;
+	}
+	p {
+		font-family: 'Open Sans', sans-serif;
+	}
+	button {
+		background-color: white;
+		color: black;
+	}
 }

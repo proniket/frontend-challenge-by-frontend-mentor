@@ -2,7 +2,16 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				heading: ['Open Sans', 'sans-serif'],
+				body: ['Poppins', 'sans-serif'],
+			},
+			backgroundImage: {
+				'bg-desktop': "url('/images/bg-desktop.svg')",
+				'bg-mobile': "url('/images/bg-mobile.svg')",
+			},
+		},
 		screens: {
 			sm: '480px',
 			md: '768px',
@@ -10,10 +19,8 @@ export default {
 			xl: '1440px',
 		},
 		colors: {
-			white: 'hsl(0, 0%, 100%)',
-			'grayish-blue': 'hsl(220, 15%, 55%)',
-			'dark-blue': 'hsl(218, 44%, 22%)',
-			'light-gray': 'hsl(212, 45%, 89%)',
+			vilot: 'hsl(257, 40%, 49%)',
+			'soft-magentagrayish-blue': 'hsl(300, 69%, 71%)',
 		},
 	},
 	plugins: [],
